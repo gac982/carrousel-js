@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- script -->
-    <script defer src="js/main.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="css/main.css">
     <title>Carrousel</title>
 </head>
 <body>
@@ -12,6 +12,18 @@
         <button id="retroceder">back</button>
         <img id="imagen" src="" alt="carrousel" width="500" height="300">
         <button id="avanzar">forward</button>
+        <div id="circulos"></div>
+        <button id="iniciar">Play</button>
+        <button id="parar">Stop</button>
     </article>
+
+
+    <!-- template -->
+    <template id="template-circulo">
+        <input type="radio" name="circulo">
+    </template>
+
+    <!-- script -->
+    <script src="js/main.js"></script>
 </body>
 </html>
