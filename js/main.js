@@ -51,6 +51,7 @@ function cambiarPagina(nuevaPagina) {
  function render() {
     objImg.setAttribute('src', imagenes[pagina - 1]);
     // ciculos de inidcativo
+    // se borran los circulos
     circulos.textContent = '';
     imagenes.forEach(function (imagen, indice) {
         // creamos los circulos

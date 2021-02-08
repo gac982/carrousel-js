@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- tipografia -->
+     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="css/main.css">
+    <title>Carrousel</title>
+</head>
+<body>
+    <h1>Carrousel JS</h1>
+    <article class="container">
+        <div class="carrousel">
+            <button id="retroceder" class="btn arrow"><</button>
+            <img id="imagen" src="" alt="carrousel" width="500" height="300" class="imagen">
+            <button id="avanzar" class="btn arrow">></button>
+        </div>
+          <div id="circulos" class="circulos"></div>
+        <div class="btnGrupo">
+          <button id="iniciar" class="btn play">Play</button>
+          <button id="parar" class="btn stop">Stop</button>
+        </div>
+    </article>
+
+
+    <!-- template -->
+    <template id="template-circulo">
+        <input type="radio" name="circulo">
+    </template>
+
+    <!-- script -->
+    <script src="js/main.js"></script>
+</body>
+</html>
