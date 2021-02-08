@@ -11,4 +11,4 @@ Simple Carrusel de Imagenes hecho con JS
 
 ---
 
-# [Miralo aqui](https://gac982.github.io/super-jackpot-game-app/ "demo")
+# [Miralo aqui](https://gac982.github.io/carrousel-js/ "demo")
